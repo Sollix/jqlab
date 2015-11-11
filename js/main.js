@@ -1,23 +1,28 @@
 // 1.	Slide the header element up when it is clicked on.
-
+	$('header').on('click',function(){
+		$(this).slideUp();
+	});
 // 2.	Remove the purplebox class from everything.
+	$('.box').removeClass('purplebox');
 
 // 3.	Hide all of the div’s in #row4
-
+	$('#row4').hide();
 // 4.	Add a paragraph that says “I have been added” to all boxes with class “add-para” (Hint: you'll need to look up the append() method)
-
+	$('.add-para').append('I have been added');
 // 5.	Add a class in your css and add it to all items with the class .box
-
+	$('.box').addClass('blackbox');
 // 6.	Show the footer when the anchor in #box2 is clicked
-
+	$('#box2 a').on('click',function(event){
+		$('footer').css('display','block');
+	});
 // 7.	Change the styling of the span inside of #box3 by adding a class (and style that class in CSS)
-
+	$('#box3 span').addClass('beaut');
 // 8.	Add a unique class to your CSS and add it to the articles in #row1
-
+	$('#row1 article').addClass('art');
 // 9.	Change the background color of all the articles
-
+	$('article').css('background-color','#ddd');
 // 10.	Change the font color of all the articles in row 2
-
+	$('#row2 article').css('color','#000');
 // 11.	Select any spans that are siblings of an h4 (using the .siblings() method) and hide them.
 
 // 12.	Clicking on #box7 should hide the span within the h2

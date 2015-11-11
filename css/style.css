@@ -93,6 +93,23 @@ header {
      color: white;
 }
 
+.blackbox {
+     background-color: black;
+     color: navy;
+     font-size: 14px;
+     border-radius: 10%;
+     border: 3px solid white;
+}
+
+.beaut {
+     color: violet;
+     font-style: italic;
+}
+
+.art {
+     background: url(http://www.diymfa.org/wp-content/uploads/2013/12/red-hex.jpg);
+}
+
 footer {
      display: none;
      background: black;
